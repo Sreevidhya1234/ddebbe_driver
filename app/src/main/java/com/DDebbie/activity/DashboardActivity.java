@@ -2358,6 +2358,7 @@ public class DashboardActivity extends AppCompatActivity implements View.OnClick
                 perms.put(android.Manifest.permission.ACCESS_COARSE_LOCATION, PackageManager.PERMISSION_GRANTED);
                 perms.put(Manifest.permission.READ_EXTERNAL_STORAGE, PackageManager.PERMISSION_GRANTED);
                 perms.put(Manifest.permission.ACCESS_FINE_LOCATION,PackageManager.PERMISSION_GRANTED);
+                perms.put(Manifest.permission.CAMERA,PackageManager.PERMISSION_GRANTED);
 
                 // Fill with results
                 for (int i = 0; i < permissions.length; i++)
@@ -2371,6 +2372,8 @@ public class DashboardActivity extends AppCompatActivity implements View.OnClick
                     Log.e("", "ACCESS_COARSE_LOCATION PERMISSION_DENIED");
                 } else if (perms.get(Manifest.permission.READ_EXTERNAL_STORAGE) == PackageManager.PERMISSION_DENIED) {
                     Log.e("", "READ_EXTERNAL_STORAGE PERMISSION_DENIED");
+                } else if (perms.get(Manifest.permission.CAMERA) == PackageManager.PERMISSION_DENIED) {
+                    Log.e("", "CAMERA PERMISSION DENIED");
                 }
 
             }
@@ -2393,6 +2396,8 @@ public class DashboardActivity extends AppCompatActivity implements View.OnClick
                 permissionsNeeded.add("ACCESS_FINE_LOCATION");
             if (!addPermission(permissionsList, Manifest.permission.READ_EXTERNAL_STORAGE))
                 permissionsNeeded.add("READ_EXTERNAL_STORAGE");
+            if (!addPermission(permissionsList, Manifest.permission.CAMERA))
+                permissionsNeeded.add("CAMERA");
 
             if (permissionsList.size() > 0) {
                 if (permissionsNeeded.size() > 0) {
