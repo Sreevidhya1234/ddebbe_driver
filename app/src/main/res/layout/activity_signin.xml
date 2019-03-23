@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/main_bg1"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:id="@+id/main_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:src="@mipmap/ddb_logo" />
+
+            <EditText
+                android:id="@+id/edtEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="30dp"
+                android:background="@mipmap/email_field"
+                android:paddingLeft="60sp"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                android:textSize="15dp" />
+
+           <!-- <com.scottyab.showhidepasswordedittext.ShowHidePasswordEditText
+                android:id="@+id/edtPassword"
+                android:layout_width="match_parent"
+                android:layout_height="40sp"
+                android:background="@color/white"
+                android:gravity="center"
+                android:hint="@string/password"
+                android:paddingRight="10dp"
+                app:drawable_hide="@mipmap/ic_visibility_off_black"
+                app:drawable_show="@mipmap/ic_visibility_black"
+                tools:ignore="HardcodedText"
+                android:typeface="normal"
+                android:textSize="15sp"
+                />-->
+
+
+
+            <com.scottyab.showhidepasswordedittext.ShowHidePasswordEditText
+                android:id="@+id/edtPassword"
+                android:layout_width="match_parent"
+                android:layout_height="45sp"
+                android:background="@mipmap/pass_field"
+                android:hint="@string/password"
+                android:paddingLeft="60sp"
+                android:textSize="15dp"
+                app:drawable_hide="@mipmap/ic_visibility_off_black"
+                app:drawable_show="@mipmap/ic_visibility_black" />
+
+            <Button
+                android:id="@+id/btnSignIN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@color/yellow_lite"
+                android:text="@string/signin"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:typeface="monospace" />
+
+
+            <Button
+                android:id="@+id/btnForgot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:background="@null"
+                android:text="@string/forgot"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@android:color/white" />
+
+
+            <Button
+                android:id="@+id/btnSignUp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:background="@color/yellow_lite"
+                android:onClick="onClick"
+                android:text="@string/signup"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:typeface="monospace"
+                android:visibility="gone"/>
+
+
+            <Button
+                android:id="@+id/btnQuickSignUp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:background="@color/yellow_lite"
+                android:onClick="onClick"
+                android:text="@string/quick_signup"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:typeface="monospace" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

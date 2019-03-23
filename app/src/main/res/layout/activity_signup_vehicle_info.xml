@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_signup_personal_info"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/main_bg1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/vehicle_type"
+            android:textColor="@color/white" />
+
+        <Spinner
+            android:id="@+id/spnVehicleType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/text_field"
+            android:entries="@array/array_vehicle_type"
+            android:gravity="center"
+            android:spinnerMode="dropdown"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/edtPlateno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@mipmap/text_field"
+            android:gravity="center"
+            android:hint="Plate no."
+            android:inputType="text"
+            android:maxLines="1"
+            android:textSize="15dp" />
+
+
+        <EditText
+            android:id="@+id/edtYear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@mipmap/text_field"
+            android:gravity="center"
+            android:hint="@string/year"
+            android:inputType="number"
+            android:maxLength="4"
+            android:maxLines="1"
+            android:textSize="15dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <EditText
+                android:id="@+id/edtModel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:background="@mipmap/text_field"
+                android:gravity="center"
+                android:hint="@string/model"
+                android:inputType="textPersonName"
+                android:maxLines="1"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/edtMake"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:background="@mipmap/text_field"
+                android:gravity="center"
+                android:hint="Make"
+                android:inputType="textPersonName"
+                android:maxLines="1"
+                android:textSize="15dp" />
+
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/edtNoOfDoors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@mipmap/text_field"
+            android:gravity="center"
+            android:hint="@string/no_of_doors"
+            android:inputType="number"
+            android:maxLength="1"
+            android:maxLines="1"
+            android:textSize="15dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            >
+
+            <EditText
+                android:id="@+id/edtRefNumber"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@mipmap/text_field"
+                android:gravity="center"
+                android:hint="@string/vehicle_number"
+                android:inputType="text"
+                android:maxLines="1"
+                android:textSize="15dp" />
+
+
+            <RadioGroup
+                android:id="@+id/radioGpRef"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:checkedButton="@+id/rdbRefYes"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rdbRefYes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes"
+                    android:textColor="@color/white" />
+
+                <RadioButton
+                    android:id="@+id/rdbRefNo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No"
+                    android:textColor="@color/white" />
+
+
+            </RadioGroup>
+        </LinearLayout>
+
+
+        <EditText
+            android:id="@+id/edtOwnership"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@mipmap/text_field"
+            android:gravity="center"
+            android:hint="@string/ownership"
+            android:inputType="textPersonName"
+            android:maxLines="1"
+            android:textSize="15dp"
+            android:visibility="gone" />
+
+
+        <TextView
+            android:id="@+id/txtLicenceType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Licence Type"
+            android:textColor="@color/white" />
+
+        <Spinner
+            android:id="@+id/spnLicenceType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/text_field"
+            android:entries="@array/licence_type"
+            android:gravity="center"
+            android:hint="@string/licensing"
+            android:maxLines="1"
+            android:spinnerMode="dropdown"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/edtInsuranceCmpName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@mipmap/text_field"
+            android:gravity="center"
+            android:hint="@string/insurance_cmp_name"
+            android:inputType="textPostalAddress"
+            android:maxLines="1"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Wheel chair facility"
+            android:textColor="@color/white" />
+
+        <RadioGroup
+            android:id="@+id/rdgWheelChair"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checkedButton="@+id/rdbWheelChairNo"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rdbWheelChairNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No"
+                android:textColor="@color/white" />
+
+            <RadioButton
+                android:id="@+id/rdbWheelChairYes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:textColor="@color/white" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <CheckBox
+                android:id="@+id/chkTermsConditions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/yellow_lite"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/txtTerm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/yellow_lite" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="Upload document"
+            android:textColor="@color/white" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="10">
+
+            <Button
+                android:id="@+id/btnNext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="15dp"
+                android:layout_weight="5"
+                android:background="@color/yellow_lite"
+                android:onClick="onClick"
+                android:text="@string/now"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:typeface="monospace" />
+
+            <Button
+                android:id="@+id/btnLater"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:layout_weight="5"
+                android:background="@color/yellow_lite"
+                android:onClick="onClick"
+                android:text="@string/later"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:typeface="monospace"
+                android:visibility="visible" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

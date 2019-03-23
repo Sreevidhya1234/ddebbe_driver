@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.DDebbie.fragment.PickupInformationFragment"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    >
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="10"
+            >
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/text_bg"
+                    android:layout_weight="7.7"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginBottom="7dp"
+                    android:padding="5dp"
+                    >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="15F Jhonston\nToronto - N3C 3X8"
+                    android:id="@+id/txtAddress"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/black"
+                    android:padding="10dp"
+                    />
+                </RelativeLayout>
+
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/navigation"
+                        android:layout_marginRight="7dp"
+                        android:layout_marginTop="7dp"
+                        android:layout_marginBottom="7dp"
+                        android:layout_weight="2.3"
+                        android:id="@+id/imgNavigate"
+                        />
+
+
+        </LinearLayout>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Arrived"
+        android:id="@+id/btnArrived"
+        android:layout_gravity="bottom"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorAccent"
+        android:textAllCaps="false"/>
+
+</RelativeLayout>

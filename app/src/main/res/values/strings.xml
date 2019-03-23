@@ -1,0 +1,238 @@
+<resources>
+    <string name="app_name">Ddebbie Driver</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="google_app_id">976236736209</string>
+    <string name="google_maps_key">AIzaSyCN-zFzvARWBshxhmABCwyhc9aYSNVvsXQ</string>
+    <string name="timerVal">00:00:00</string>
+    <string name="service">Service</string>
+    <string name="service_types">DDEBBIE.S | TAXI | BLACK CAR | SUV | LUXURY | TOWING | RENTAL</string>
+    <string name="support_for">Support For Seek kids &amp; Feed kids</string>
+    <string name="signin">Sign in</string>
+    <string name="signup">Sign up</string>
+    <string name="quick_signup">Ddebbie Driver registration</string>
+    <string name="next">Next</string>
+    <string name="email">Email Address</string>
+    <string name="password">Password</string>
+    <string name="cancel">Cancel</string>
+    <string name="forgot">Forgot Password?</string>
+    <string name="register">Register Now</string>
+    <string name="reset">Send Password</string>
+    <string name="uname">Your Name</string>
+    <string name="emailid">Email ID</string>
+    <string name="your_password">Your Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="licence_number">Licence Number</string>
+    <string name="address">Address</string>
+    <string name="postal_code">Postal Code</string>
+    <string name="ownership">Ownership</string>
+    <string name="licensing">Licensing</string>
+    <string name="vehicle_type">Vehicle Type</string>
+    <string name="insurance_cmp_name">Insurance Comp. Name</string>
+    <string name="wheel_chair_facility">Wheel chair facility</string>
+
+
+    <string name="i_agree">I agree to the </string>
+    <string name="term"><u>Terms &amp; Conditions</u></string>
+    <string name="cont">Continue</string>
+    <string name="payment">PAYMENT INFO</string>
+    <string name="holder_name">Card Holder Name</string>
+    <string name="cardno">Card Number</string>
+    <string name="ex_date">Ex Date</string>
+    <string name="cvv">CVV</string>
+    <string name="submit">Submit</string>
+    <string name="myac">My Account</string>
+
+
+    <string name="advance">Advance Booking</string>
+    <string name="setting">Settings</string>
+    <string name="payment_info">Payment Info</string>
+    <string name="notifications">Notifications</string>
+    <string name="promo">Promocode</string>
+    <string name="help">Help</string>
+    <string name="about">About Us</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="search_dest">Search your destination</string>
+    <string name="choice">What is your choice?</string>
+    <string name="small">SMALL</string>
+    <string name="medium">MEDIUM</string>
+    <string name="limo">LIMOUSINE</string>
+    <string name="suv">SUV</string>
+    <string name="fare">Fare Estimate</string>
+    <string name="promocode">Promocode</string>
+    <string name="destination">Destination</string>
+    <string name="sec_destination">Second Destination</string>
+    <string name="pickup_loc">Pickup Location</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="sheduler">Scheduler</string>
+    <string name="name">First Name</string>
+    <string name="l_name">Last Name</string>
+    <string name="email1">Email:</string>
+    <string name="mobile">Mobile:</string>
+    <string name="contact_number">Contact Number</string>
+    <string name="editProf">Edit Profile</string>
+
+    <string name="vehicle_number">Referral Number</string>
+    <string name="year">Year</string>
+    <string name="model">Model</string>
+    <string name="no_of_doors">No. Of Doors</string>
+
+
+    <string name="ride">Your ride is waiting for you</string>
+    <string name="no_offer">You have no offer Today...!</string>
+    <string name="offer_info">To get a free offer recommend or \nshare us with your friends</string>
+
+    <string-array name="card_type">
+        <item>Credit</item>
+        <item>Debit</item>
+    </string-array>
+
+
+    <string-array name="array_vehicle_type">
+        <item>Ddebbie X</item>
+        <item>Taxi</item>
+        <item>Medium</item>
+        <item>Limousine</item>
+        <item>SUV</item>
+        <item>Towing truck</item>
+        <item>Rental Cars</item>
+        <item>Wheel Chair</item>
+    </string-array>
+
+    <string name="done">Done</string>
+
+
+    <string name="latitude_label">Latitude</string>
+    <string name="longitude_label">Longitude</string>
+    <string name="last_update_time_label">Last location update time</string>
+
+    <string name="start_updates">Start updates</string>
+    <string name="stop_updates">Stop updates</string>
+    <string name="google_api_key">AIzaSyB8Ns3Pe9R973rO7K3K1tLI4suTCYM9AVw</string>
+    <string name="title_activity_dynamic_map">Map</string>
+    <string name="email_msg">Check your E-mail for your password</string>
+    <string name="vehicle">Vehicles</string>
+    <string name="online">ON LINE</string>
+    <string name="offline">  ON OFFLINE</string>
+    <string name="profile">Profile</string>
+    <string name="profile_edit">Profile Edit</string>
+    <string name="profile_update">Profile Update</string>
+    <string name="cardetails">Car Details</string>
+    <string name="insurance">Insurance ID</string>
+
+    <string-array name="car_type">
+        <item>Toyota</item>
+        <item>Ford</item>
+        <item>RangeRover</item>
+        <item>Nissan</item>
+    </string-array>
+
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_trip_history">Trip History</string>
+    <string name="title_activity_earnings">Earnings</string>
+    <string name="title_activity_job_notifications">Job Notifications</string>
+    <string name="title_activity_pick_up_information">PickUp Information</string>
+    <string name="title_activity_job_preview">Job Preview</string>
+    <string name="title_activity_manual_destination">Manual Destination</string>
+    <string name="title_activity_manual_destnation">ManualDestnation</string>
+    <string name="title_activity_destination">Destination</string>
+    <string name="title_personal_info">Personal Info</string>
+    <string name="title_vehicle_info">Vehicle Info</string>
+    <string name="later">Later</string>
+    <string name="now">Now</string>
+
+    <string name="long_demo">DDEBBIE an international venture first of it’s kind in GTA, is thrilled to
+
+bring the city a one stop solution for all your transportation needs
+
+bridging technology and transport needs. Our unparalleled services
+
+include Taxi services, Towing &amp; roadside assistance, Delivery needs,
+
+Limo &amp; Car- Rentals.
+
+With a few taps on your smart phone, our app makes it easy to avail
+
+all the above services at your footstep.
+
+    TAXI SERVICES
+
+A quickest way to book a taxi to anywhere in GTA, right from your
+
+smartphone for Airport Transfers, Corporate Services &amp; Wheelchair
+
+accessible services. Our fleet’s currently populated with range of vehicles
+
+to suit your need from Sedan, SUV &amp; Limos. All vehicles are equipped with
+
+state of the art navigation systems for your convenience.
+
+We operate with several drivers-entrepreneurs equipped with experience &amp;
+
+with elegance.
+
+TOWING SERVICES &amp;
+
+ROADSIDE ASSISTANCE
+
+
+
+We take pride in widest range of towing services that our community can
+
+rely on for consistent high level of service from our qualified operators.
+
+Our operators are trained &amp; certified to meet your roadside emergency
+
+needs 24hrs a days &amp; 7 days a week. Our services include fuel delivery,
+
+tire repair and/or change, Winch Service, Air and/or fuel delivery, Unlock
+
+Service &amp; Battery Boost.
+
+CAR- RENTALS
+
+
+
+Top notch rental service to find your perfect vehicle suited for every
+
+occasion for your travel in class &amp; Style. Our car rental groups are well
+
+known in rendering best class vehicles that give the freedom to travel
+
+across any array of miles in reasonable charges. Our app allows our
+
+customers to choose from state-of- the-art fleets ranging from Sedan,
+
+SUVs or Luxury vehicles to meet your rental needs at your finger tips.
+
+DELIVERY SERVICES
+
+For a fast service in fair price, for all your delivery needs, DDEBBIE brings
+
+the best pick up &amp; drop service at your door steps. We bring drivers who
+
+can be entrusted with your document &amp; packages with confidence to
+
+deliver your packages in time at desired destination. Our app gives our
+
+customers the leverage to track their delivery at their finger tips, the type
+
+of delivery from ordinary ones to Critical ones and the range of fleet to
+
+choose from to suit your delivey need.</string>
+
+    <string-array name="licence_type">
+        <item>G</item>
+        <item>Limos</item>
+        <item>Taxi</item>
+        <item>Towing</item>
+        <item>Wheelchair</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.DDebbie.fragment.EarningListFragment"
+    android:orientation="vertical"
+    android:background="@color/background"
+    >
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Earnings"
+      android:gravity="center_horizontal"
+      android:textColor="@android:color/black"
+      android:textSize="16sp"
+      android:textStyle="bold"
+      />
+<ListView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/listEarning"
+    android:scrollbars="none"
+    android:divider="@null"
+    android:layout_marginTop="10dp"></ListView>
+
+
+</LinearLayout>
